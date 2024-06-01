@@ -8,8 +8,8 @@ def getGitFolderPathsRecursively(directory):
     return git_folders
 
 def main():
-    OLD_IP = "192.168.100.115"
-    NEW_IP = "192.168.100.115"
+    OLD_IP = "192.168.100.89"
+    NEW_IP = "192.168.100.96"
 
     REPLACE_HTTP_WITH_SSH = True # False: http will stay http, True: http will become git (so no username + pw input necessary)
     GITLAB_PORT = "8084" # useful to make replacing http with ssh easier
